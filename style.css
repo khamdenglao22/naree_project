@@ -21,7 +21,7 @@
     background-color: #F3E4E1;
     padding: 20px 0;
     box-shadow: #F3E4E1 0px 0px 8px;
-    height: 14%;
+    /* height: 95px; */
 }
 
 .container{
@@ -152,7 +152,7 @@
 /* Start Banner */
 .banner{
     display: flex;
-    height: 76%;
+    height: calc(100vh - 156px);
     width: 100%;
     background-color: #FAF2F0;
     background-image: url('./assets/image-2.png');
@@ -204,7 +204,7 @@
 /* Start Footer */
 
 footer{
-    height: 10%;
+    /* height: 10%; */
     width: 100%;
     background-color: #F3E4E1;
     padding: 10px 0;
