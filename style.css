@@ -9,8 +9,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Noto Sans Lao', sans-serif;
-    font-family: 'Noto Serif Lao', serif;
+    font-family: Arial;
     /* color: #747474; */
 }
 
@@ -311,11 +310,12 @@ footer{
     font-size: 62px;
     text-transform: uppercase;
     color: #FFFFFF;
-
+    margin: 25px 0;
 }
 
 .banner-title span{
     color: #F2E2DF; 
+    text-shadow: 0 0 3px #707070, 0 0 5px #707070;
 }
 
 .banner-social{
