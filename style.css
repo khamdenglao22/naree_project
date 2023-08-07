@@ -271,7 +271,7 @@ footer{
 /* Banner 2 */
 .container-full-2{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     display: grid;
     grid-template-rows: 1fr auto;
     background: rgb(140,125,119);
@@ -282,7 +282,7 @@ footer{
 .banner-2{
     display: flex;
     /* grid-template-columns: 1fr 2fr; */
-    height: 100%;
+    height: calc(100vh - 60px);
     width: 100%;
     align-items: center;
 }
@@ -309,10 +309,12 @@ footer{
 }
 
 .banner-right-2 .width-r{
-    transform: translateX(-16vw);
+    transform: translate(-16vw, -50%);
     width: calc(100vw - 29vw );
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 50%;
 }
 
 .logo-2{
