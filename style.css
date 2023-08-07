@@ -306,12 +306,16 @@ footer{
 .banner-right-2{
     justify-self: center;
     width: inherit;
-
+    position: relative;
 }
 
 .banner-right-2 .width-r{
     display: flex;
     justify-content: flex-end;
+}
+
+.width-r .right_logo{
+    width: 130px;
 }
 
 .logo-2{

@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1200px){
+  .width-r .right_logo{
+    width: 100px;
+}
+
+.banner-title{
+  font-size: 50px
+}
+
+.banner-left-2{
+  position: relative;
+}
+
+.banner-left-2 img{
+  position: absolute;
+}
+
+}
+
+@media only screen and (max-width: 900px){
+  .banner-left-2 img{
+    opacity: 0.3;
+  }
+
+  .banner-left-2{
+    width: unset;
+  }
+
+  .banner-right-2{
+    width: 100%;
+  }
+
+  .banner-right-2 .width-r{
+    justify-content: center;
+  }
+
+  .container-2{
+    display: block;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (max-width: 700px){
+  .banner-right-2 .width-r{
+    text-align: center;
+  }
+
+  .banner-social{
+    justify-content: center;
+  }
+
+}
