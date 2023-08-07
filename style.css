@@ -283,7 +283,8 @@ footer{
     display: flex;
     /* grid-template-columns: 1fr 2fr; */
     height: calc(100vh - 60px);
-    width: 100%;
+    width: 80%;
+    margin: auto;
     align-items: center;
 }
 
@@ -294,12 +295,12 @@ footer{
     background-position-x: 140%;
     background-size: cover; */
     height: 80%;
-
+    width: 30%;
 }
 
 .banner-left-2 img{
     height: 100%;
-    transform: translateX(-16vw);
+    transform: translateX(-57%);
 }
 
 .banner-right-2{
@@ -309,12 +310,8 @@ footer{
 }
 
 .banner-right-2 .width-r{
-    transform: translate(-16vw, -50%);
-    width: calc(100vw - 29vw );
     display: flex;
-    justify-content: center;
-    position: fixed;
-    top: 50%;
+    justify-content: flex-end;
 }
 
 .logo-2{
@@ -352,7 +349,7 @@ footer{
 
 .container-2{
     padding: 20px 0;
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
